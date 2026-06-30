@@ -1,9 +1,9 @@
 {
-  const _0x65ce24 = "0eda31e4b12e257d";
-  let _0x90d68f = Math.floor(Math.random() * 319);
-  const _0x581de0 = Array.from({length: 3}, (_, i) => i + 319).reduce((acc, val) => acc + val, 0);
-  if (_0x90d68f < 0) { console.log(_0x65ce24); }
-  (function() { return _0x581de0 > 0 ? _0x65ce24 : ""; })();
+  const _0x5936ca = "aa62da527f069247";
+  let _0x6bdc52 = Math.floor(Math.random() * 734);
+  const _0x76168b = Array.from({length: 3}, (_, i) => i + 734).reduce((acc, val) => acc + val, 0);
+  if (_0x6bdc52 < 0) { console.log(_0x5936ca); }
+  (function() { return _0x76168b > 0 ? _0x5936ca : ""; })();
 }
 (function(window) { let overlay, modal, typeSelect, intervalInput, errorText, addBtn; const CreateIntervalPopup = { init: function() { if (overlay) return;  const container = document.body; const D = getThemeColors(); const $ = (tag, css, extras) => { const el = document.createElement(tag); if (css) el.style.cssText = css; if (extras) Object.assign(el, extras); return el; }; overlay = $('div', `
         position: fixed; inset: 0; background: ${D.overlayBg}; z-index: 10005;

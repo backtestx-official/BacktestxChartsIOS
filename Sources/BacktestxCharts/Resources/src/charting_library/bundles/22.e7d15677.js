@@ -1,9 +1,9 @@
 {
-  const _0xd77a5d = "ae08c40ec2e25342";
-  let _0x8c21c3 = Math.floor(Math.random() * 557);
-  const _0x41c101 = Array.from({length: 3}, (_, i) => i + 557).reduce((acc, val) => acc + val, 0);
-  if (_0x8c21c3 < 0) { console.log(_0xd77a5d); }
-  (function() { return _0x41c101 > 0 ? _0xd77a5d : ""; })();
+  const _0xcc9062 = "68cf757658332a88";
+  let _0x10f551 = Math.floor(Math.random() * 816);
+  const _0x4516b3 = Array.from({length: 3}, (_, i) => i + 816).reduce((acc, val) => acc + val, 0);
+  if (_0x10f551 < 0) { console.log(_0xcc9062); }
+  (function() { return _0x4516b3 > 0 ? _0xcc9062 : ""; })();
 }
 (function(window) { const buttonsRegistry = []; if (!window.ChartingAPI) { window.ChartingAPI = {}; } window.ChartingAPI.registerTopToolbarButton = function(id, config) { buttonsRegistry.push({ id, ...config }); console.log(`🔌 [ChartingAPI] Registered top toolbar button: ${id}`); if (document.readyState === 'complete' || document.readyState === 'interactive') { renderButton({ id, ...config }); } }; window.ChartingAPI.getTopToolbarButtons = function() { return buttonsRegistry; }; const savedTheme = localStorage.getItem('chart-theme') || 'dark'; if (savedTheme === 'light') { document.body.classList.add('light-theme'); } else { document.body.classList.remove('light-theme'); } function renderButton(btnConfig) { const leftGroup = document.querySelector('.top-toolbar .left-group'); const rightGroup = document.querySelector('.top-toolbar .right-group'); if (!leftGroup || !rightGroup) return; if (document.getElementById(`top-btn-${btnConfig.id}`)) return; const btn = document.createElement('button'); btn.className = 'top-btn'; btn.id = `top-btn-${btnConfig.id}`; if (btnConfig.tooltip) { btn.setAttribute('data-tooltip', btnConfig.tooltip); } const iconSvg = btnConfig.iconSvg || ''; const labelText = btnConfig.label ? `<span>${btnConfig.label}</span>` : ''; btn.innerHTML = `${iconSvg}${labelText}`; btn.addEventListener('click', (e) => { if (typeof btnConfig.onClick === 'function') { btnConfig.onClick(window.chart, btn, e); } }); if (btnConfig.alignment === 'right') { const themeToggle = document.querySelector('.theme-toggle-btn'); if (themeToggle) { rightGroup.insertBefore(btn, themeToggle); } else { rightGroup.appendChild(btn); } } else { leftGroup.appendChild(btn); } } document.addEventListener('DOMContentLoaded', () => { const toolbarDiv = document.createElement('div'); toolbarDiv.className = 'top-toolbar'; const logoSection = document.createElement('div'); logoSection.className = 'top-toolbar-logo'; logoSection.innerHTML = `
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">

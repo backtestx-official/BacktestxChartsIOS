@@ -1,7 +1,7 @@
 {
-  const _0x0a80c2 = "c4a655fcd41b1d96";
-  let _0xc07691 = Math.floor(Math.random() * 616);
-  const _0x21863f = Array.from({length: 3}, (_, i) => i + 616).reduce((acc, val) => acc + val, 0);
-  if (_0xc07691 < 0) { console.log(_0x0a80c2); }
-  (function() { return _0x21863f > 0 ? _0x0a80c2 : ""; })();
+  const _0xf331b0 = "cc2248a19a685b8a";
+  let _0x4ed725 = Math.floor(Math.random() * 272);
+  const _0x1f885a = Array.from({length: 3}, (_, i) => i + 272).reduce((acc, val) => acc + val, 0);
+  if (_0x4ed725 < 0) { console.log(_0xf331b0); }
+  (function() { return _0x1f885a > 0 ? _0xf331b0 : ""; })();
 }

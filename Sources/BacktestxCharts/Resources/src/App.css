@@ -30,13 +30,17 @@
   background: transparent;
   border: 1px solid transparent;
   border-radius: 6px;
-  color: var(--text-muted);
+  color: #ffffff;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: all 0.15s ease;
   position: relative;
+}
+
+body.light-theme .tool-btn {
+  color: #000000;
 }
 
 .tool-btn:hover {
