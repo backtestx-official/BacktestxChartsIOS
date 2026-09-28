@@ -30,7 +30,7 @@ Add the package to your `Package.swift` dependencies:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/backtestx-official/BacktestxChartsIOS.git", from: "1.0.0")
+    .package(url: "https://github.com/backtestx-official/BacktestxChartsIOS.git", from: "1.0.2")
 ]
 ```
 
@@ -43,7 +43,7 @@ Or in Xcode:
 Integrate the library into your Xcode project by specifying it in your `Podfile`:
 
 ```ruby
-pod 'BacktestxCharts', :git => 'https://github.com/backtestx-official/BacktestxChartsIOS.git', :tag => '1.0.0'
+pod 'BacktestxCharts', :git => 'https://github.com/backtestx-official/BacktestxChartsIOS.git', :tag => '1.0.2'
 ```
 
 ---
