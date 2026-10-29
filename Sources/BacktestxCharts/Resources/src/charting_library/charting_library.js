@@ -663,7 +663,7 @@
         (this.horizontalScale || window.TimeScale).drawTimeBadge(this, ctx, chartH + totalPanelsH);
       }
 
-      // 10. SmartLoader scrollback check
+      // 10. SmartLoader scrollback checks
       if (this.smartLoader) {
         this.smartLoader.check();
       }

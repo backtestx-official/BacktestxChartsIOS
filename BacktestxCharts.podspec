@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 spec.name         = "BacktestxCharts"
-spec.version      = "1.0.2"
+spec.version      = "1.0.3"
 spec.summary      = "BacktestX custom lightweight charting engine iOS wrapper."
 spec.description  = "A native Swift wrapper for using the custom BacktestX charting engine in iOS applications."
 spec.homepage     = "https://github.com/backtestx/BacktestxChartsIOS"

@@ -1,6 +1,6 @@
 // api.js - Public Charting API for custom candle renderers and drawing tools
 (function(window) {
-  // Registrie
+  // Registries
   const candleRegistry = {};
   const drawingsRegistry = {};
   const indicatorsRegistry = {};
